@@ -15,4 +15,4 @@
 * List available version: module avail xxx
 
 1. Load Python: ```module load python/3.10```
-2. Load other software (e.g. OpenCV): ```module load opencv```
+2. Load other software (e.g. OpenCV): ```module load opencv/4.5.1```
