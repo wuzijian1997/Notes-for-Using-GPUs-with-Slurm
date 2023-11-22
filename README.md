@@ -12,7 +12,15 @@
 
 ## Virtual Environments
 
+Tutorial: [A Complete Guide for using Compute Canada for Deep Learning!](https://prashp.gitlab.io/post/compute-canada-tut/); [Creating and using a virtual environment](https://docs.alliancecan.ca/wiki/Python#Creating_and_using_a_virtual_environment)
+
 * List available version: module avail xxx
 
 1. Load Python: ```module load python/3.10```
 2. Load other software (e.g. OpenCV): ```module load opencv/4.5.1```
+
+* Create new environment: ```virtualenv --no-download test_env```
+
+* Activate your environment: ```source ~/virtualenvs/test_env/bin/activate```
+
+* Exit a virtual environment: ```deactivate```
